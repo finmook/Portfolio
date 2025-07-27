@@ -1,0 +1,35 @@
+#logo{
+    margin: 4px;
+}
+.dark-mode{
+    color:aquamarine;
+    background-color: black;
+}
+.text-toggle{
+    color:aquamarine
+}
+.dark-mode .nav-link {
+  color: #f8f9fa;
+}
+.dark-mode .nav-link:hover {
+  color: aquamarine;
+}
+.dark-mode .nav-pills .nav-link.active {
+
+  color: #000;
+}
+.dark-mode h1#header{
+    color:aquamarine
+}
+#darkModeSwitch:checked{
+    background-color: aquamarine;
+}
+#icon-grid img{
+    margin-right: 5px;
+}
+.dark-mode #contact{
+    color:white;
+}
+
+
+
