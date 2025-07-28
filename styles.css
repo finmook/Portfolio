@@ -1,17 +1,23 @@
 #logo{
     margin: 4px;
 }
+h5{
+    font-weight:bold;
+}
 
 #nav-bar{
     
     position: fixed;
     top:0px;
     width: 100%;
+    
     z-index: 999;
     background-color: white;
 }
 .dark-mode #nav-bar{
     position: fixed;
+    top:0px;
+    width: 100%;
     z-index: 999;
     background-color: black;
 }
@@ -19,9 +25,8 @@
     color:aquamarine;
     background-color: black;
 }
-.text-toggle{
-    color:aquamarine
-}
+
+
 .dark-mode .nav-link {
   color: #f8f9fa;
 }
@@ -61,6 +66,49 @@
     background-position: 0% 50%;
   }
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%) grayscale(100%) brightness(50%);
+}
+.dark-mode .carousel-indicators [data-bs-target] {
+  background-color: darkgrey;
+  
+}
+.dark-mode .carousel-indicators .active{
+    background-color: aquamarine;
+    opacity: 1;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #ccc; /* light gray or any color */
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: #0d6efd; /* Bootstrap primary blue */
+  opacity: 1;
+}
+.textToggle.dark {
+  color: white;
+  background-color: #222;
+}
+
+.albumToggle.dark {
+  border-color: white;
+  background-color: #111;
+}
+.albumToggle.dark .card-title{
+    color:aquamarine
+}
+.albumToggle.dark .card-text{
+    color:aquamarine;
+}
+.albumToggle.dark .card-body{
+    background-color: #393E46;
+}
+
+
+
+
 
 
 

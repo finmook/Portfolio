@@ -1,34 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
     <title>Document</title>
-    
-</head>
-<body>
-    <div id="nav-bar" > 
-        <header class="d-flex flex-wrap justify-content-center px-3 py-3 mb-4 border-bottom"> 
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"><img src="./images/journals.svg" alt="book icon" height="20px" id="logo"><span class="fs-4 textToggle">Portfolio</span></a> 
-            <ul class="nav nav-pills"> 
-                <li class="nav-item"><a href="./index.html" class="nav-link" aria-current="page">Home</a></li> 
-                <li class="nav-item"><a href="./activities.html" class="nav-link">Activities</a></li>
-                <li class="nav-item"><a href="./club.html" class="nav-link">Club</a></li> 
-                <li class="nav-item"><a href="./project.html" class="nav-link">Project</a></li> 
-                <li class="nav-item">
-                    <div class="form-check form-switch ms-3">
-                        <input class="form-check-input" type="checkbox" id="darkModeSwitch">
-                        <label class="form-check-label textToggle" for="darkModeSwitch">🌙</label>
-                    </div>
-                </li>
-
-            </ul> 
-        </header> 
+  </head>
+  <body>
+    <div id="nav-bar">
+      <header
+        class="d-flex flex-wrap justify-content-center px-3 py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          ><img
+            src="./images/journals.svg"
+            alt="book icon"
+            height="20px"
+            id="logo"
+          /><span class="fs-4 textToggle">Portfolio</span></a
+        >
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./activities.html" class="nav-link">Activities</a>
+          </li>
+          <li class="nav-item">
+            <a href="./club.html" class="nav-link">Club</a>
+          </li>
+          <li class="nav-item">
+            <a href="./project.html" class="nav-link">Project</a>
+          </li>
+          <li class="nav-item">
+            <div class="form-check form-switch ms-3">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="darkModeSwitch"
+              />
+              <label class="form-check-label textToggle" for="darkModeSwitch"
+                >🌙</label
+              >
+            </div>
+          </li>
+        </ul>
+      </header>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <section class="py-5 mt-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Welcome to My Stories</h1>
+          <p class="lead">
+            I have done many activities in chulalongkorn university and some of
+            them let me work with people from other faculties such as
+            business-major students or med-students
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 albumToggle">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./images/vishnu2.jpg" height="350" class="object-fit-cover" >
+                <title>Vishnu Camp</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+            
+              
+              <div class="card-body">
+                <h5 class="card-title">Vishnu camp</h5>
+                <p class="card-text">
+                 This is Vishnu camp
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./images/baankids.jpg" height="350" class="object-fit-cover">
+                <title>Rubpoenkaomai</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+              
+              <div class="card-body">
+                <h5 class="card-title">Rubpoenkaomai</h5>
+                <p class="card-text">This is Rubpoenkaomai activity</p>
+                <div class="d-flex justify-content-between align-items-center">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
     <script src="index.js" charset="UTF-8"></script>
-</body>
+  </body>
 </html>
