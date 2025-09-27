@@ -22,7 +22,7 @@ h5{
     background-color: black;
 }
 .dark-mode{
-    color:aquamarine;
+    color:white;
     background-color: black;
 }
 
@@ -31,17 +31,17 @@ h5{
   color: #f8f9fa;
 }
 .dark-mode .nav-link:hover {
-  color: aquamarine;
+  color: white;
 }
 .dark-mode .nav-pills .nav-link.active {
 
   color: #000;
 }
 .dark-mode h1#header{
-    color:aquamarine
+    color:white
 }
 #darkModeSwitch:checked{
-    background-color: aquamarine;
+    background-color: white;
 }
 #icon-grid img{
     margin-right: 5px;
@@ -75,16 +75,16 @@ h5{
   
 }
 .dark-mode .carousel-indicators .active{
-    background-color: aquamarine;
+    background-color: white;
     opacity: 1;
 }
 .carousel-indicators [data-bs-target] {
-  background-color: #ccc; /* light gray or any color */
+  background-color: #ccc; 
   opacity: 1;
 }
 
 .carousel-indicators .active {
-  background-color: #0d6efd; /* Bootstrap primary blue */
+  background-color: #0d6efd; 
   opacity: 1;
 }
 .textToggle.dark {
@@ -97,14 +97,50 @@ h5{
   background-color: #111;
 }
 .albumToggle.dark .card-title{
-    color:aquamarine
+    color:white;
 }
 .albumToggle.dark .card-text{
-    color:aquamarine;
+    color:white;
+    
+}
+.card-text{
+  height: 60px;
 }
 .albumToggle.dark .card-body{
     background-color: #393E46;
 }
+.fixed-card {
+  /* fixed height version */
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+}
+
+.badge-tag {
+  background-color:#f1f3f5;
+  color: #495057;
+  border: 1px solid rgba(0,0,0,.08);
+  font-weight: 500;
+}
+.albumToggle.dark .badge-tag{
+  background-color:#f1f3f5;
+  color: #495057;
+  border: 1px solid rgba(0,0,0,.08);
+  font-weight: 500;
+}
+
+.hover-pop {
+  transition: transform 180ms cubic-bezier(.2,.8,.2,1),
+              box-shadow 180ms cubic-bezier(.2,.8,.2,1);
+  will-change: transform;
+}
+.hover-pop:hover,
+.hover-pop:focus-within {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: var(--bs-box-shadow-lg);
+  z-index: 2;
+}
+
 
 
 
