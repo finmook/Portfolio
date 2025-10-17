@@ -41,7 +41,7 @@ h5{
     color:white
 }
 #darkModeSwitch:checked{
-    background-color: white;
+    background-color: grey;
 }
 #icon-grid img{
     margin-right: 5px;
