@@ -152,9 +152,13 @@ h5{
   max-width: 100%;     
 }
 
-a,li a{
+.dark-mode a,li a{
   color:white;
 }
+a,li a{
+  color:black;
+}
+
 
 
 
